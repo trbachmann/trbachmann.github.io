@@ -14,4 +14,4 @@ This project was taking the static comp below and recreating it starting in Subl
 
 ### Final Site
 
-![Screenshot of final site recreation](./images/screenshot-dog-party-site-buttons-aligned.png)
+![Screenshot of final site recreation](./images/screenshot-dog-party-site-buttons-aligned-resized.png)
