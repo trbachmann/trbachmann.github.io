@@ -1,0 +1,111 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+button {
+  color: #3f8ca6;
+  border: 3px solid #3f8ca6;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}
+
+/*nav styles*/
+li {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul {
+  float: right;
+  margin-bottom: 0;
+  margin-top: 1%;
+  margin auto;
+}
+
+.dog-icon {
+  height: 30px;
+  margin-left: 1%;
+  width: 30px;
+}
+
+nav {
+  background-color: #91dfe3;
+  color:white;
+  padding: 1%;
+}
+
+.nav-items {
+  margin-right: 20%;
+  text-decoration: none;
+}
+
+/*header styles*/
+header {
+  background-image: url(./images/park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  text-align: center;
+}
+
+h2  {
+  margin-top: 0;
+  /*removes the top margin so it is in line with the nav section*/
+  padding-top: 4%;
+}
+
+#top-dog {
+  display: block;
+  margin: auto auto 2% auto;
+  width: auto;
+}
+
+/*main styles*/
+.dog-pics {
+  border: 3px solid #3f8ca6;
+  border-radius: 50%;
+  /*above makes the picture a circle*/
+  margin-bottom: 8%;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  /*below splits them so they take up 1/3 of the space*/
+  margin: 2%;
+  /*below targets the button, img and text and centers it*/
+  text-align: center;
+  width: 28%;
+}
+
+/*footer styles*/
+.footer{
+  background-color: #3f8ca6;
+  clear: left;
+  color: white;
+  padding: 1%;
+  text-align: center;
+}
+
+.footer-title {
+  margin: 1%;
+}
+
+.social-links {
+  margin: 3%;
+}
+
+.social-logos {
+  margin-right: 5%;
+}
