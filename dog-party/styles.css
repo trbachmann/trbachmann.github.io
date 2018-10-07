@@ -55,8 +55,9 @@ header {
   background-image: url(./images/park.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 480px;
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 h2  {
@@ -87,6 +88,14 @@ h2  {
   /*below targets the button, img and text and centers it*/
   text-align: center;
   width: 28%;
+}
+
+.align-buttons {
+  display: inline-block;
+  float: left;
+  margin: 1% 8% 2% 8%;
+  max-width: 16%;
+  text-align: center;
 }
 
 /*footer styles*/
